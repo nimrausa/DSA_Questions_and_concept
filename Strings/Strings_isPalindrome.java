@@ -12,7 +12,7 @@ public class Strings_isPalindrome {
 	}
 	public static boolean palindrome(String str) {
 		 str = str.toLowerCase().replaceAll("[^a-z0-9]", "");
-		 System.out.println(str);
+		 
 		int i=0;
 		int j=str.length()-1;
 		while(i<j) {
@@ -24,9 +24,7 @@ public class Strings_isPalindrome {
 		}
 		return true;
 	}
-	private static boolean charAt(int i) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+	
+	
 
 }

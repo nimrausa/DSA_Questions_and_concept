@@ -17,6 +17,7 @@ public class StringsCountPalindromicSubstrings {
 		int count=0;
 		for (int i = 0; i < str.length(); i++) {
 			for (int j = i+1; j <=str.length(); j++) {
+				
 				String s=str.substring(i,j);
 				if(validPalindrome(s)==true) {
 					count++;
